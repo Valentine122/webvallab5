@@ -1,0 +1,100 @@
+ .combines-section {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 100%;
+ }
+ 
+ .combines-list {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .combines-list li {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border: grey 0.15rem solid;
+     padding: 1%;
+     margin: 2% 0 0 5%;
+     border-radius: 10%;
+     width: 300px;
+     height: 300px;
+ }
+ 
+ .control-buttons {
+     display: flex;
+     align-items: center;
+     padding-top: 50px;
+ }
+ 
+ .btn-danger {
+     margin-left: 20px;
+ }
+ 
+ .combines-manager {
+     display: flex;
+     flex-direction: column;
+     background-color: #f5f5f7;
+     align-items: center;
+     width: 400px;
+ }
+ 
+ .sort-manager {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .sort-manager label {
+     margin-top: 100px;
+     font-size: 28px;
+ }
+ 
+ .sort-manager select {
+     margin-top: 100px;
+     margin-left: 20px;
+     font-size: 18px;
+     width: 100px;
+ }
+ 
+ .calculate-price {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .calculate-price label {
+     margin-top: 20px;
+     font-size: 24px;
+ }
+ 
+ .calculate-price button {
+     margin-top: 150px;
+     width: 200px;
+     height: 40px;
+ }
+ 
+ .form__edit_combine {
+     display: none;
+     max-width: 85%;
+     min-height: 5rem;
+ }
+ 
+ .form__edit_combine div input {
+     border: none;
+ }
+ 
+ .hide {
+     display: none !important;
+ }
+ 
+ .open {
+     display: flex !important;
+     flex-direction: column;
+ }
+ 
+ .combine_id {
+     display: none;
+ }
